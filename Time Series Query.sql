@@ -2,7 +2,7 @@
 ##### Author: Max Triba
 ##### Date: March, 2015
 
-# Actual unit names obsfucated
+# Actual unit names obsfucated, this is a recent script chosen to give a brief overview of my SQL abilities.
 
 ####################
 ######## Production: 

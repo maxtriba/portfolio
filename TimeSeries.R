@@ -1,10 +1,10 @@
-##### Deconstruct, summarize, and predict unemployment in the United States
-##### Author: Max Triba
+# Deconstruct, summarize, and predict unemployment in the United States
+# Author: Max Triba
 
 install.packages("forecast")
 library(forecast)
 
-unemp <- Quandl("FRED/UNRATE", authcode="FNxxdXbtYBJdvjgsDJtt") #Gather unemployment data
+unemp <- Quandl("FRED/UNRATE", authcode="API_KEY") #Gather unemployment data
 
 ##### Build a function to return summary statistics and plot unemployment data within a specific date range
 

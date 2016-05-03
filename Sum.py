@@ -1,6 +1,7 @@
 #! /usr/bin/env python
 
-#Project Euler solution to question: "Find the sum of the multiples of 3 or 5 below 1000"
+# Author: Max Triba
+# Project Euler solution to question: "Find the sum of the multiples of 3 or 5 below 1000"
 
 import math
 
@@ -21,5 +22,3 @@ for j in range(0, int(n/b)):
 cResults = aResults + list(set(bResults) - set(aResults)) #Remove duplicates
 
 print cResults
-
-

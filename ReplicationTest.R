@@ -1,5 +1,12 @@
-# Calculate the probabilities over t trials that you will pull a full item from a bottle, if on replacement you break 
-# a item in half and return half to the bottle
+/*
+
+	Author: Max Triba
+	
+	Calculate the probabilities over t trials that you will pull a full item from a bottle, if on replacement you break an item in 
+	half and return half to the bottle.
+	
+*/
+
 
 n <- 24
 trials <- 48
@@ -37,11 +44,3 @@ f <- function(x) {
   if(x == 0) return(1)
   else return (x * f(x-1))
 }
-
-
-
-
-
-
-
-

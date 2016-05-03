@@ -1,8 +1,13 @@
 #! /usr/bin/env python
 
-# Prelaunchr Coupon Test Script
-# Create example email addresses, right tailed distribution of referral numbers
-# Create random strings of coupon codes (numbers and letters), 1 for each email and whose value depends on referral count 
+/*
+	Author: Max Triba
+	Prelaunchr Coupon Test Script
+
+	1. Create example email addresses, right tailed distribution of referral numbers
+	2. Create random strings of coupon codes (numbers and letters), 1 for each email and whose value depends on referral count
+	
+*/ 
 
 import string
 import random
@@ -35,25 +40,3 @@ for i in range(0,e):
 
 for i, j in eandc.items():
 	print "Email: " + i + ", Code:" + j
-	
-
-	
-	
-	
-	
-	
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  

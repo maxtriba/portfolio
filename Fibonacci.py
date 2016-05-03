@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
-#Solution to Project Euler question: "Print sum of all even fibonacci numbers less than 4,000,000"
-
+# Author: Max Triba
+# Solution to Project Euler question: "Print sum of all even fibonacci numbers less than 4,000,000"
 
 n = 0
 array = []
@@ -17,4 +17,3 @@ while fib(n) < 4000000:
 
 print sum(j for j in array if j % 2 == 0 and j < 4000000)
 print array
-
